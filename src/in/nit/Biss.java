@@ -6,6 +6,7 @@ public class Biss {
 public static void m1() {
 	System.out.println("enter the value of a and b");
 	
+	@SuppressWarnings("resource")
 	Scanner scn=new Scanner(System.in);
 	int a1=scn.nextInt();
 	int a2=scn.nextInt();
